@@ -25,7 +25,7 @@ print ("-"*20)
 print("Employee Name:",name, "\n")
 print(f'{"Hours Worked":<15}{"Pay Rate":<12}{"Over Time":<12}{"Over Time Pay":<20}{"RegHour Pay":<20}{"Gross Pay"}')
 print("-"*90)
-print(f'{hoursWorked:<15}{payRate:<12}{overPay:<12}{overTimeHours:<20}{regPay:<20}{grossPay:.2f}')
+print(f'{hoursWorked:<15}{payRate:<12}{overPay:<12}{overTimeHours:<20} ${regPay:<20}${grossPay:.2f}')
 
 '''
 print(overPay)
